@@ -16,7 +16,8 @@
     "about": "<p>This notebook and Cashflow Bridge Check are maintained under <strong>faigvain-ang</strong> by the same team developing related Eqvero, KolmoPDF and KomoPDF ecosystem tools. We disclose that connection rather than presenting these pages as independent product reviews.</p><p>This site focuses on checking public-reporting arithmetic. <a href=\"https://eqvero.com/\">Eqvero</a> is the related product for source-linked research into public filings and company disclosures. This CLI is not an Eqvero API client, a data feed or a recommendation engine. Neither a matching bridge nor a linked product guarantees that the source is correct.</p>",
     "notes_label": "Field notes",
     "source_label": "Get the code on GitHub →",
-    "about_description": "Maintenance, product relationships and data handling at Cashflow Fieldnotes."
+    "about_description": "Maintenance, product relationships and data handling at Cashflow Fieldnotes.",
+    "seo_title": "Cash Flow Reconciliation Tool"
   },
   "es": {
     "eyebrow": "01 / PAPELES DE TRABAJO FINANCIEROS",
@@ -29,6 +30,8 @@
     "about": "<p>Este cuaderno y Cashflow Bridge Check se mantienen bajo <strong>faigvain-ang</strong>, por el mismo equipo que desarrolla herramientas del ecosistema de Eqvero, KolmoPDF y KomoPDF. Declaramos esa relación: estas páginas no son reseñas independientes.</p><p>Aquí comprobamos aritmética de información pública. <a href=\"https://eqvero.com/\">Eqvero</a> es el producto relacionado para investigar informes y comunicaciones empresariales con referencias a las fuentes. Este CLI no es un cliente de su API, una fuente de cotizaciones ni un motor de recomendaciones. Una conciliación que cuadra no garantiza que la fuente sea correcta.</p>",
     "notes_label": "Notas prácticas",
     "source_label": "Código en GitHub →",
-    "about_description": "Mantenimiento, relación con productos y tratamiento de datos en Cashflow Fieldnotes."
-  }
+    "about_description": "Mantenimiento, relación con productos y tratamiento de datos en Cashflow Fieldnotes.",
+    "seo_title": "Herramienta para conciliar flujos de efectivo"
+  },
+  "root_seo_title": "Cash Flow Reconciliation / Conciliación de efectivo"
 }
