@@ -1,0 +1,13 @@
+{
+  "period": "FY2025 — synthetic example",
+  "currency": "USD",
+  "unit": "million",
+  "cash_basis": "Cash and cash equivalents; same scope at both period ends",
+  "opening": "100",
+  "operating": "35",
+  "investing": "-20",
+  "financing": "-10",
+  "fx": "-2",
+  "closing": "103",
+  "adjustments": []
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://filings.findfindata.com/sitemap.xml
