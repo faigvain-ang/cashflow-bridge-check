@@ -12,8 +12,8 @@
     "description": "Reconcile cash-flow statements locally with explicit FX, signed net flows and exact decimals. English and Spanish tutorials.",
     "panel_title": "One equation. Explicit inputs.",
     "panel_intro": "Cashflow Bridge Check uses Python 3.11+ and the standard library. It checks arithmetic, not investment merit.",
-    "panel_body": "<pre><code>python cashflow_bridge.py examples/reconciled.json --json\n# calculated 103; reported 103; difference 0</code></pre><p>Source download and full JSON schema: <a href=\"https://github.com/faigvain-ang/cashflow-bridge-check\">cashflow-bridge-check</a>. No installation or API key required.</p>",
-    "about": "<p>This notebook and Cashflow Bridge Check are maintained under <strong>faigvain-ang</strong> by the same team developing related Eqvero, KolmoPDF and KomoPDF ecosystem tools. We disclose that connection rather than presenting these pages as independent product reviews.</p><p>This site focuses on checking public-reporting arithmetic. <a href=\"https://eqvero.com/\">Eqvero</a> is the related product for source-linked research into public filings and company disclosures. This CLI is not an Eqvero API client, a data feed or a recommendation engine. Neither a matching bridge nor a linked product guarantees that the source is correct.</p>",
+    "panel_body": "<pre><code>python cashflow_bridge.py examples/reconciled.json --json\n# calculated 103; reported 103; difference 0</code></pre><p>Source download and full JSON schema: <a href=\"https://github.com/faigvain-ang/cashflow-bridge-check\">cashflow-bridge-check</a>. No installation or API key required.</p><p>When you need to follow a cash-flow discrepancy back through public disclosures, the related <a href=\"https://eqvero.com/companies\">Eqvero company research workspace</a> supports source-linked investigation. This local checker only verifies the arithmetic.</p>",
+    "about": "<p>This notebook and Cashflow Bridge Check are maintained under <strong>faigvain-ang</strong> by the same team developing related Eqvero, KolmoPDF and KomoPDF ecosystem tools. We disclose that connection rather than presenting these pages as independent product reviews.</p><p>This site focuses on checking public-reporting arithmetic. <a href=\"https://eqvero.com/\">Eqvero</a> is the related product for source-linked research into public filings and company disclosures. This CLI is not an Eqvero API client, a data feed or a recommendation engine. Neither a matching bridge nor a linked product guarantees that the source is correct.</p><p>Source code and version history are hosted on GitHub; this website is deployed on Vercel. The shared maintenance relationship described above is unchanged.</p>",
     "notes_label": "Field notes",
     "source_label": "Get the code on GitHub →",
     "about_description": "Maintenance, product relationships and data handling at Cashflow Fieldnotes.",
@@ -26,12 +26,22 @@
     "description": "Concilie flujos de efectivo en local con efecto cambiario explícito, flujos con signo y decimales exactos. Guías en inglés y español.",
     "panel_title": "Una ecuación. Datos explícitos.",
     "panel_intro": "Cashflow Bridge Check utiliza Python 3.11+ y su biblioteca estándar. Comprueba aritmética, no el atractivo de una inversión.",
-    "panel_body": "<pre><code>python cashflow_bridge.py examples/reconciled.json --json\n# calculado 103; declarado 103; diferencia 0</code></pre><p>Código y esquema JSON completo: <a href=\"https://github.com/faigvain-ang/cashflow-bridge-check\">cashflow-bridge-check</a>. Sin instalación ni clave API.</p>",
-    "about": "<p>Este cuaderno y Cashflow Bridge Check se mantienen bajo <strong>faigvain-ang</strong>, por el mismo equipo que desarrolla herramientas del ecosistema de Eqvero, KolmoPDF y KomoPDF. Declaramos esa relación: estas páginas no son reseñas independientes.</p><p>Aquí comprobamos aritmética de información pública. <a href=\"https://eqvero.com/\">Eqvero</a> es el producto relacionado para investigar informes y comunicaciones empresariales con referencias a las fuentes. Este CLI no es un cliente de su API, una fuente de cotizaciones ni un motor de recomendaciones. Una conciliación que cuadra no garantiza que la fuente sea correcta.</p>",
+    "panel_body": "<pre><code>python cashflow_bridge.py examples/reconciled.json --json\n# calculado 103; declarado 103; diferencia 0</code></pre><p>Código y esquema JSON completo: <a href=\"https://github.com/faigvain-ang/cashflow-bridge-check\">cashflow-bridge-check</a>. Sin instalación ni clave API.</p><p>Para seguir un descuadre hasta las comunicaciones públicas de la empresa, el producto relacionado <a href=\"https://eqvero.com/companies\">Eqvero</a> permite investigar con referencias a las fuentes. Este comprobador local solo verifica la aritmética.</p>",
+    "about": "<p>Este cuaderno y Cashflow Bridge Check se mantienen bajo <strong>faigvain-ang</strong>, por el mismo equipo que desarrolla herramientas del ecosistema de Eqvero, KolmoPDF y KomoPDF. Declaramos esa relación: estas páginas no son reseñas independientes.</p><p>Aquí comprobamos aritmética de información pública. <a href=\"https://eqvero.com/\">Eqvero</a> es el producto relacionado para investigar informes y comunicaciones empresariales con referencias a las fuentes. Este CLI no es un cliente de su API, una fuente de cotizaciones ni un motor de recomendaciones. Una conciliación que cuadra no garantiza que la fuente sea correcta.</p><p>El código y su historial se alojan en GitHub; este sitio web se publica en Vercel. Se mantiene la relación de mantenimiento compartido indicada arriba.</p>",
     "notes_label": "Notas prácticas",
     "source_label": "Código en GitHub →",
     "about_description": "Mantenimiento, relación con productos y tratamiento de datos en Cashflow Fieldnotes.",
     "seo_title": "Herramienta para conciliar flujos de efectivo"
   },
-  "root_seo_title": "Cash Flow Reconciliation / Conciliación de efectivo"
+  "root_seo_title": "Cash Flow Reconciliation / Conciliación de efectivo",
+  "maintainer": {
+    "names": {
+      "en": "faigvain-ang maintenance team",
+      "es": "Equipo de mantenimiento de faigvain-ang"
+    },
+    "url": "https://github.com/faigvain-ang"
+  },
+  "published_at": "2026-11-03",
+  "modified_at": "2026-11-04",
+  "article_schema_type": "Article"
 }
