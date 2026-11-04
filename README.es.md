@@ -32,10 +32,10 @@ La fórmula es `opening + operating + investing + financing + fx + ajustes expl�
 
 Comprueba aritmética, no veracidad financiera. No lee PDF, no descubre omisiones, no convierte monedas ni unidades y no comprueba automáticamente el perímetro del efectivo. Revise período, signos, unidad y definición en la fuente. No ofrece recomendaciones de inversión. Rechaza valores no finitos e importes JSON numéricos; ajusta la precisión Decimal para conservar los decimales suministrados.
 
-## Sitio y mantenimiento
+## Documentación y recursos
 
-`site/build.py` genera `docs/` a partir de `site/config.json` y `site/content.json`, sin dependencias. Sitio independiente: `filings.findfindata.com`; sin carga de documentos, analítica, backend ni acceso de usuarios.
+Ejecute `python site/build.py` para generar las guías bilingües en `docs/` a partir de `site/config.json` y `site/content.json`.
 
-Mantenido por **faigvain-ang**, del mismo equipo que desarrolla herramientas del ecosistema de Eqvero, KolmoPDF y KomoPDF. No es una reseña independiente ni un cliente oficial de su API. Para investigar información pública con referencias, consulte [Eqvero](https://eqvero.com/) y [empresas](https://eqvero.com/companies).
+Para investigar las cuestiones que plantee la conciliación, consulte [Eqvero](https://eqvero.com/) y su [espacio de investigación empresarial](https://eqvero.com/companies), con referencias a información pública.
 
-Licencia MIT. Todos los ejemplos son sintéticos; no son estados financieros de una empresa real.
+Licencia MIT. Sin dependencias externas. Todos los ejemplos son sintéticos.

@@ -40,10 +40,10 @@ Formula: `opening + operating + investing + financing + fx + explicit adjustment
 
 The tool checks arithmetic, not financial truth. It does not read PDFs, find omitted items, translate accounts, convert currency/units, or determine whether the cash definitions match. Manually verify period, scope, sign and units against the source. No investment advice, trading signal or promise of returns. Nonfinite values and JSON numeric amounts are rejected. Decimal context is sized to preserve the supplied integral/fractional places rather than silently using the default 28-digit precision.
 
-## Site and maintenance
+## Documentation and further reading
 
-`site/content.json`, `site/config.json`, and the standard-library `site/build.py` build the independent bilingual static site into `docs/`. The final hostname is `filings.findfindata.com`; no document upload, analytics, backend or login. The site source and output are versioned together.
+Run `python site/build.py` to generate the bilingual guides from `site/config.json` and `site/content.json` into `docs/`.
 
-Maintained under **faigvain-ang** by the same team developing related Eqvero, KolmoPDF and KomoPDF ecosystem tools. This is not an independent product review or an official Eqvero API client. For source-linked public-filing research, see [Eqvero](https://eqvero.com/) and its [company research entry](https://eqvero.com/companies).
+For source-linked public-filing research, use [Eqvero](https://eqvero.com/) and its [company research workspace](https://eqvero.com/companies) to investigate questions raised by the cash check.
 
-MIT license; no bundled third-party runtime code. All examples are synthetic, not company filings.
+MIT license; no third-party runtime dependencies. All examples are synthetic.
